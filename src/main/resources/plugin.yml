@@ -1,0 +1,114 @@
+name: SkyBlock
+version: '${project.version}'
+website: https://nerotv.live/skyblock
+api-version: 1.19
+description: SkyBlock system by nerotvlive
+author: nerotvlive
+main: com.zyneonstudios.nerotvlive.Preloader
+
+depend:
+  - ZyneonAPI
+
+softdepend:
+  - Vault
+
+loadbefore:
+  - GChestShop
+
+commands:
+  Maintenance:
+    description: Toggles the maintenance-mode
+  Island:
+    aliases: [i,in,insel]
+    description: Command to manage your island
+  Team:
+    description: Command to team up with other players
+  Build:
+    description: Toggles the permission to build anywhere
+  World:
+    aliases: [map]
+    description: Shows you the world you are in or teleports you to another world
+  Author:
+    aliases: [SkyBlock,Sky,Block]
+    description: Shows plugin and author information
+  Warp:
+    description: Lets you create and manage and teleport to warps
+  Spawn:
+    description: Teleports you to the spawn
+  Money:
+    aliases: [bal,balance,geld]
+    description: Shows your money
+  Gamemode:
+    aliases: [gm,spielmodus,sm]
+    description: Lets you change your gamemode
+  Disconnect:
+    aliases: [dc,disc]
+    description: Disconnects you from the server
+  Clearchat:
+    aliases: [cc,chatclear,clearc,cchat]
+    description: Clears the chat
+  Feed:
+    description: Feeds you or another user
+  Fly:
+    description: Toggles the flymode
+  Day:
+    description: Changes the time to day
+  Difficulty:
+    aliases: [dif,diff]
+    description: Changes the difficulty
+  God:
+    description: Toggles the godmode
+  Heal:
+    description: Heals you or another player
+  Kill:
+    description: Kills you or another player
+  Night:
+    description: Changes the time to night
+  Ping:
+    description: Shows your ping
+  Speed:
+    description: Changes your speed
+  Sudo:
+    description: Lets you control an user
+  Sun:
+    description: Changes the weather to sun
+  Rain:
+    description: Changes the weather to rain
+  Thunder:
+    aliases: [storm]
+    description: Changes the weather to thunder
+  Teleport:
+    aliases: [tp]
+    description: Teleports you or another user
+  Time:
+    description: Changes the time
+  Weather:
+    description: Changes the weather
+  Vanish:
+    description: Toggles the vanish-mode
+  Tell:
+    aliases: [msg,whisper]
+    description: Lets you whisper with another user
+  Pay:
+    description: Lets you pay money to another user
+  SRL:
+    description: Starts an stop or restart countdown
+  Hologram:
+    aliases: [holo]
+    description: Command to create or delete a hologram
+  Hub:
+    aliases: [lobby,quit,q,l,leave]
+    description: Command to join to the BungeeCord-Lobby server
+  Villager:
+    aliases: [setshop]
+    description: Command to create or delete a shop
+  Language:
+    aliases: [sprache,lang]
+    description: Command to set your language
+  Settings:
+    aliases: [set,ein,einstellungen,option,options,optionen,config,configuration,konfig,konfiguration,konfigurieren,configurate]
+    description: Command to access the settings menu
+  Item:
+    description: Gives you a item
+  BiomeStick:
+    description: Command to give the BiomeStick item
